@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PrizeView">
+        <!--文字大小-->
+        <attr name="prize_text_size"/>
+        <!--文字颜色-->
+        <attr name="prize_text_color" format="color" />
+        <!--设置文字内容-->
+        <attr name="prize_text_content" format="string" />
+        <!--是否加粗-->
+        <attr name="prize_text_type" format="boolean" />
+        <!--设置背景图片-->
+        <attr name="prize_bag_image" format="reference" />
+        <!--遮盖层的颜色-->
+        <attr name="prize_cover_color" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.example.prizedemo.view.PrizeView
+        android:id="@+id/id_prize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:prize_bag_image="@mipmap/back"
+        app:prize_cover_color="#7c7c7c"
+        app:prize_text_color="#000000"
+        app:prize_text_content="$100"
+        app:prize_text_size="30sp"
+        app:prize_text_type="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+</LinearLayout>
